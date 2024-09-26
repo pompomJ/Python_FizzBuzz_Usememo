@@ -10,6 +10,3 @@ def fastFib(n, memo = {}):
 
         memo[n] = result
         return result
-
-   
-
