@@ -1,4 +1,4 @@
-# memoを用いたフィボナッチ数列の実装。とても高速。
+# memoを用いてフィボナッチ数列を求める。とても高速。
 
 def fastFib(n, memo = {}):
     if n == 0 or n == 1:
@@ -10,3 +10,6 @@ def fastFib(n, memo = {}):
 
         memo[n] = result
         return result
+
+fastFib(50)
+
